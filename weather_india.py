@@ -4,14 +4,14 @@ import json
 
 root = Tk()
 root.title("Weather Report")
-root.iconbitmap(r'C:\Users\Abhi\Pictures\python\image.ico')
+root.iconbitmap(r'C:\Users\Unknown\python\image.ico')
 root.geometry("400x200")
 
 
 def submit():
     try:
         r = requests.get(
-            r"https://api.waqi.info/feed/" + zip_int.get() + "/?token=67854891b90a375064f03fba757cd57674f9afd6")
+            r"https://api.waqi.info/feed/" + zip_int.get() + "/?token=67854891b90a375064f03fba7**********")
 
         api = json.loads(r.content)
 
